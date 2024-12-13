@@ -1,0 +1,26 @@
+{
+	"name": "estatebud/estatebud-connect",
+	"description": "Estatebud connect WP plugin.",
+	"version": "1.0.0",
+	"type": "project",
+	"license": "GPL-2.0-or-later",
+	"authors": [
+		{
+			"name": "Estatebud",
+			"email": "integrations@estatebud.com"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"EstatebudConnect\\": "src/"
+		}
+	},
+	"config": {
+		"optimize-autoloader": true,
+		"lock": false
+	},
+	"require": {
+		"php": "^7.4 || ^8.0",
+		"ext-json": "*"
+	}
+}
